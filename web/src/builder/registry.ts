@@ -2,8 +2,7 @@ import Hero from "@/components/blocks/hero";
 import { builder, Builder } from "@builder.io/react";
 
 // Initialize Builder
-builder.init(process.env.BUILDER_PUBLIC_KEY!);
-
+builder.init(process.env.NEXT_PUBLIC_BUILDER_PUBLIC_KEY!);
 // Register the Hero component
 Builder.registerComponent(Hero, {
   name: "Hero",
