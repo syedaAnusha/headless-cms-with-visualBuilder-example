@@ -1,0 +1,18 @@
+{
+  "collectionName": "blocks",
+  "info": {
+    "singularName": "block",
+    "pluralName": "blocks",
+    "displayName": "Block"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "enum": ["hero"]
+    },
+    "position": { "type": "integer" },
+    "content": { "type": "json" }
+  }
+}
