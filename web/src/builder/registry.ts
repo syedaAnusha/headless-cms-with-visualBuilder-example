@@ -46,17 +46,17 @@ Builder.registerComponent(Features, {
 
 Builder.registerComponent(Testimonials, {
   name: "Testimonials",
-  inputs: [
-    {
-      name: "people",
-      type: "list",
-      subFields: [
-        { name: "quote", type: "text" },
-        { name: "name", type: "text" },
-        { name: "role", type: "text" },
-      ],
-    },
-  ],
+  // inputs: [
+  //   {
+  //     name: "people",
+  //     type: "list",
+  //     subFields: [
+  //       { name: "quote", type: "text" },
+  //       { name: "name", type: "text" },
+  //       { name: "role", type: "text" },
+  //     ],
+  //   },
+  // ],
 });
 
 Builder.registerComponent(Cta, {
