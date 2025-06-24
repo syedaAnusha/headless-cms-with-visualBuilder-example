@@ -46,6 +46,8 @@ Builder.registerComponent(Features, {
 
 Builder.registerComponent(Testimonials, {
   name: "Testimonials",
+  noWrap: true, // prevents extra <div> Builder wrapper
+  // no inputs – data comes from Strapi, not Builder props
   // inputs: [
   //   {
   //     name: "people",
